@@ -1,7 +1,7 @@
-package smt.smtlib.theory
+package com.github.gnush.smt.smtlib.theory
 
-import smt.smtlib.SMTLibFormatter
-import smt.smtlib.syntax.{Apply, SimpleSymbol, Sort, Term}
+import com.github.gnush.smt.smtlib.SMTLibFormatter
+import com.github.gnush.smt.smtlib.syntax.{Apply, SimpleSymbol, Sort, Term}
 
 // TODO: revert case classes to be defs again (as pretty printing for bool is already in Term.Apply)?
 // Bool exists in every theory

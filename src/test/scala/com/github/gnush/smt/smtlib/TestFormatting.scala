@@ -1,4 +1,4 @@
-package smt.smtlib
+package com.github.gnush.smt.smtlib
 
 import org.scalatest.funsuite.AnyFunSuite
 import syntax.{Apply, Binary, ComposedIdentifier, Decimal, Exists, Forall, Hexadecimal, IdentifierAs, Keyword, Let, Numeral, QuotedSymbol, SExpr, SExprs, SMTLibString, SimpleSymbol, SortedVar, Sorts, VarBinding}

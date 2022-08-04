@@ -1,4 +1,4 @@
-package smt.smtlib.syntax
+package com.github.gnush.smt.smtlib.syntax
 
 import scala.language.implicitConversions
 

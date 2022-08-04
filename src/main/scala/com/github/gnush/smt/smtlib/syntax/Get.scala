@@ -1,6 +1,6 @@
-package smt.smtlib.syntax
+package com.github.gnush.smt.smtlib.syntax
 
-import smt.smtlib.SMTLibCommand
+import com.github.gnush.smt.smtlib.SMTLibCommand
 
 case object GetAssertions extends SMTLibCommand {
   override def format: String = "(get-assertions)"

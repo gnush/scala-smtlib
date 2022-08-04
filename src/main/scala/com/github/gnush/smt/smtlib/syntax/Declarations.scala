@@ -1,6 +1,6 @@
-package smt.smtlib.syntax
+package com.github.gnush.smt.smtlib.syntax
 
-import smt.smtlib.{SMTLibCommand, SMTLibFormatter}
+import com.github.gnush.smt.smtlib.{SMTLibCommand, SMTLibFormatter}
 
 case class DeclareConst(symbol: SMTLibSymbol, sort: Sort) extends SMTLibCommand {
   override def format: String = s"(declare-const ${symbol.format} ${sort.format})"

@@ -1,6 +1,6 @@
-package smt.smtlib.syntax
+package com.github.gnush.smt.smtlib.syntax
 
-import smt.smtlib.SMTLibCommand
+import com.github.gnush.smt.smtlib.SMTLibCommand
 
 // Commands not in another category
 

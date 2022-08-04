@@ -1,6 +1,6 @@
-package smt.smtlib.syntax
+package com.github.gnush.smt.smtlib.syntax
 
-import smt.smtlib.{SMTLibFormatter, SMTLibResponse}
+import com.github.gnush.smt.smtlib.{SMTLibFormatter, SMTLibResponse}
 
 sealed trait SpecificSuccessResponse extends GeneralResponse
 

@@ -1,6 +1,6 @@
-package smt.smtlib
+package com.github.gnush.smt.smtlib
 
-import smt.smtlib.syntax.{Apply, ConstructorDatatype, ConstructorDec, DeclareDatatype, QualifiedIdentifier, SMTLibSymbol, SimpleSymbol, Term}
+import com.github.gnush.smt.smtlib.syntax.{Apply, ConstructorDatatype, ConstructorDec, DeclareDatatype, QualifiedIdentifier, SMTLibSymbol, SimpleSymbol, Term}
 
 /**
   * Base class for SMT Lib commands

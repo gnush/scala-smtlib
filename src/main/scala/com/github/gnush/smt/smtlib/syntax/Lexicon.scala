@@ -1,6 +1,6 @@
-package smt.smtlib.syntax
+package com.github.gnush.smt.smtlib.syntax
 
-import smt.smtlib.SMTLibFormatter
+import com.github.gnush.smt.smtlib.SMTLibFormatter
 
 case class Numeral(num: Long) extends SMTLibFormatter with SpecConstant with Index {
   override def format: String = num.toString

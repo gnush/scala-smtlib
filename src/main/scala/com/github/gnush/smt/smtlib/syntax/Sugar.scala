@@ -1,4 +1,4 @@
-package smt.smtlib.syntax
+package com.github.gnush.smt.smtlib.syntax
 
 object Sugar {
   def Op(name: String)(args: Term*): Term = Apply(SimpleSymbol(name), args)

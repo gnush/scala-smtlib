@@ -1,6 +1,6 @@
-package smt.smtlib.syntax
+package com.github.gnush.smt.smtlib.syntax
 
-import smt.smtlib.SMTLibFormatter
+import com.github.gnush.smt.smtlib.SMTLibFormatter
 
 trait Sort extends SMTLibFormatter
 
